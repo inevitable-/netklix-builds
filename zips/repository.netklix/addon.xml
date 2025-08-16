@@ -1,0 +1,15 @@
+<addon id="repository.netklix"
+       name="NetKlix Repo"
+       version="1.0.0"
+       provider-name="inevitable-">
+  <extension point="xbmc.addon.repository" name="NetKlix Repo">
+    <info compressed="false">https://raw.githubusercontent.com/inevitable-/netklix-builds/main/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/inevitable-/netklix-builds/main/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/inevitable-/netklix-builds/main/zips/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>NetKlix Repo</summary>
+    <description>Repository for the NetKlix Wizard.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
