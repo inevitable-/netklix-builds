@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+  <addon id="plugin.program.netklixwizard"
+         name="NetKlix Wizard"
+         version="1.0.1"
+         provider-name="inevitable-">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py"/>
+    <extension point="xbmc.addon.metadata">
+      <summary>NetKlix Wizard</summary>
+      <description>Setup and install NetKlix Lite Build automatically.</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+</addons>
