@@ -1,15 +1,18 @@
-<addon id="repository.netklix"
-       name="NetKlix Repository"
-       version="1.0.0"
-       provider-name="inevitable-">
-  <extension point="xbmc.addon.repository" name="NetKlix Repository">
-    <info compressed="false">https://raw.githubusercontent.com/inevitable-/netklix-builds/main/addons.xml</info>
-    <checksum>https://raw.githubusercontent.com/inevitable-/netklix-builds/main/addons.xml.md5</checksum>
-    <datadir zip="true">https://raw.githubusercontent.com/inevitable-/netklix-builds/main/zips/</datadir>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>NetKlix Repo</summary>
-    <description>Installs and updates the NetKlix Wizard.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+  <!-- The actual add-on(s) your repo serves -->
+  <addon id="plugin.program.netklixwizard"
+         name="NetKlix Wizard"
+         version="1.0.1"
+         provider-name="inevitable-">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py"/>
+    <extension point="xbmc.addon.metadata">
+      <summary>NetKlix Wizard</summary>
+      <description>Downloads and installs the NetKlix Lite Build automatically.</description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+</addons>
