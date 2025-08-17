@@ -2,3 +2,5 @@ repository.netklix-*.zip
 addons.xml
 addons.xml.md5
 .DS_Store
+.DS_Store
+~*
