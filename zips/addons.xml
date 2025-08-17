@@ -2,7 +2,7 @@
 <addons>
 
   <!-- Your wizard -->
-  <addon id="plugin.program.netklixwizard" name="NetKlix Wizard" version="1.0.4" provider-name="inevitable-">
+  <addon id="plugin.program.netklixwizard" name="NetKlix Wizard" version="1.0.5" provider-name="inevitable-">
     <requires>
       <import addon="xbmc.python" version="3.0.0"/>
     </requires>
